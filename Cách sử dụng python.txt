@@ -1,0 +1,23 @@
+cài đặt Django:
+pip install Django
+//
+tạo 1 project:
+django admin startproject (ten project)
+//
+chọn vào project vừa tạo:
+cd <tên project>
+py manage.py migrate
+//
+chạy web localhost:
+py manage.py runserver
+tạo tk admin 
+py manage.py createsuperuser
+//
+tạo module:
+py manage.py startapp <tên module>
+//
+cài đặt MySQL:
+pip install pymysql
+vào init.py them dòng code:
+import pymysql
+pymysql.install_as_MySQLdb()
